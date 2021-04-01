@@ -109,8 +109,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SmokeTests\ROIAdmin\ROIContractValidation.cs" />
-    <Compile Include="SmokeTests\ROIAdmin\ROIInvoiceQBExportDatefixAndRemovePatientName .cs" />
     <Compile Include="SmokeTests\ROIAdmin\ROIMROAnalyze.cs" />
     <Compile Include="SmokeTests\ROIAdmin\ROINonAdminUsersTest .cs" />
     <Compile Include="Utilities\ROITestBase.cs" />
