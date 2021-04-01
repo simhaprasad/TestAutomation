@@ -109,17 +109,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SmokeTests\ROIAdmin\ROIAdminLoginTest.cs" />
-    <Compile Include="SmokeTests\ROIAdmin\ROICDPasswordSpecification.cs" />
     <Compile Include="SmokeTests\ROIAdmin\ROIContractValidation.cs" />
-    <Compile Include="SmokeTests\ROIAdmin\ROIEmployeeStatusTest.cs" />
-    <Compile Include="SmokeTests\ROIAdmin\ROIAdminTest.cs" />
     <Compile Include="SmokeTests\ROIAdmin\ROIInvoiceQBExportDatefixAndRemovePatientName .cs" />
     <Compile Include="SmokeTests\ROIAdmin\ROIMROAnalyze.cs" />
     <Compile Include="SmokeTests\ROIAdmin\ROINonAdminUsersTest .cs" />
-    <Compile Include="SmokeTests\SampleTest1.cs" />
-    <Compile Include="SmokeTests\SampleTest3.cs" />
-    <Compile Include="SmokeTests\SampleTest2.cs" />
     <Compile Include="Utilities\ROITestBase.cs" />
   </ItemGroup>
   <ItemGroup>

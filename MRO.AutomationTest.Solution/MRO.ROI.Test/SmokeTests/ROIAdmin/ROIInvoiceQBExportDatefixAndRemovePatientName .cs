@@ -51,7 +51,7 @@ namespace MRO.ROI.Test.SmokeTests.ROIAdmin
                 var MonthOption = TestBase.BaseWebDriver.Value.FindElement(By.XPath("//select[@id='mrocontent_ddlMonth']"));
                 var selectMonthElement = new SelectElement(MonthOption);
 
-                selectMonthElement.SelectByText("March");
+                selectMonthElement.SelectByText("July");
                 //For data stability,delete month record
 
                 Thread.Sleep(1000);
