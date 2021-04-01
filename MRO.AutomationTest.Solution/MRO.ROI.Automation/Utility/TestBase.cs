@@ -37,11 +37,11 @@ namespace MRO.ROI.Automation
             extenthtml = GetHtmlReporter1();
             extent = new ExtentReports();                       
             extent.AttachReporter(extenthtml);
-            string driverPath = Path.GetFullPath(Path.Combine(Assembly.GetExecutingAssembly().Location, "..", "..", "..", "Utilities"));
+            string driverPath = Path.GetFullPath(Path.Combine(Assembly.GetExecutingAssembly().Location, "..", ".."));
             var chromeoptions = new ChromeOptions();
             BaseWebDriver = new ThreadLocal<RemoteWebDriver>(() =>
             {
-                return new ChromeDriver(driverPath,chromeoptions);
+                return new ChromeDriver(chromeoptions);
             });        
             string username = string.Empty;
             string password = string.Empty;         

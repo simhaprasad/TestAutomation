@@ -188,6 +188,7 @@ C:\TestAutomation\MRO.AutomationTest.Solution\MRO.ROI.Test\obj\Debug\MRO.ROI.Tes
 C:\TestAutomation\MRO.AutomationTest.Solution\MRO.ROI.Test\obj\Debug\MRO.ROI.Test.csproj.CopyComplete
 C:\TestAutomation\MRO.AutomationTest.Solution\MRO.ROI.Test\obj\Debug\MRO.ROI.Test.dll
 C:\TestAutomation\MRO.AutomationTest.Solution\MRO.ROI.Test\obj\Debug\MRO.ROI.Test.pdb
+C:\MROTestAutomation\TestAutomation\MRO.AutomationTest.Solution\MRO.ROI.Test\bin\Debug\chromedriver.exe
 C:\MROTestAutomation\TestAutomation\MRO.AutomationTest.Solution\MRO.ROI.Test\bin\Debug\NUnit3.TestAdapter.dll
 C:\MROTestAutomation\TestAutomation\MRO.AutomationTest.Solution\MRO.ROI.Test\bin\Debug\NUnit3.TestAdapter.pdb
 C:\MROTestAutomation\TestAutomation\MRO.AutomationTest.Solution\MRO.ROI.Test\bin\Debug\nunit.engine.dll
