@@ -160,7 +160,7 @@ namespace MRO.ROI.Automation
                 element = BaseWebDriver.Value.FindElement(By.TagName(locatorKey));
             }
 
-            IWebDriver dr = BaseWebDriver.Value;
+            RemoteWebDriver dr = BaseWebDriver.Value;
             IJavaScriptExecutor js = (IJavaScriptExecutor)dr;
             js.ExecuteScript("arguments[0].scrollIntoView(true);", element);
         }
@@ -202,7 +202,7 @@ namespace MRO.ROI.Automation
 
     public static class WebDriverExtensions
     {
-        public static ReadOnlyCollection<IWebElement> FindElementBy(this IWebDriver driver, By by, int timeoutInSeconds)
+        public static ReadOnlyCollection<IWebElement> FindElementBy(this RemoteWebDriver driver, By by, int timeoutInSeconds)
         {
             ReadOnlyCollection<IWebElement> elements = null; 
             try

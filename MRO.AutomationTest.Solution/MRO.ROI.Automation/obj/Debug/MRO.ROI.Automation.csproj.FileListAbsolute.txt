@@ -157,6 +157,7 @@ C:\TestAutomation\MRO.AutomationTest.Solution\MRO.ROI.Automation\obj\Debug\MRO.R
 C:\TestAutomation\MRO.AutomationTest.Solution\MRO.ROI.Automation\obj\Debug\MRO.ROI.Automation.csproj.CopyComplete
 C:\TestAutomation\MRO.AutomationTest.Solution\MRO.ROI.Automation\obj\Debug\MRO.ROI.Automation.dll
 C:\TestAutomation\MRO.AutomationTest.Solution\MRO.ROI.Automation\obj\Debug\MRO.ROI.Automation.pdb
+C:\MROTestAutomation\TestAutomation\MRO.AutomationTest.Solution\MRO.ROI.Automation\obj\Debug\MRO.ROI.Automation.csproj.CoreCompileInputs.cache
 C:\MROTestAutomation\TestAutomation\MRO.AutomationTest.Solution\MRO.ROI.Automation\bin\Debug\NUnit3.TestAdapter.dll
 C:\MROTestAutomation\TestAutomation\MRO.AutomationTest.Solution\MRO.ROI.Automation\bin\Debug\NUnit3.TestAdapter.pdb
 C:\MROTestAutomation\TestAutomation\MRO.AutomationTest.Solution\MRO.ROI.Automation\bin\Debug\nunit.engine.dll
@@ -206,8 +207,7 @@ C:\MROTestAutomation\TestAutomation\MRO.AutomationTest.Solution\MRO.ROI.Automati
 C:\MROTestAutomation\TestAutomation\MRO.AutomationTest.Solution\MRO.ROI.Automation\bin\Debug\WebDriver.xml
 C:\MROTestAutomation\TestAutomation\MRO.AutomationTest.Solution\MRO.ROI.Automation\bin\Debug\WebDriver.Support.xml
 C:\MROTestAutomation\TestAutomation\MRO.AutomationTest.Solution\MRO.ROI.Automation\bin\Debug\WindowsInput.xml
-C:\MROTestAutomation\TestAutomation\MRO.AutomationTest.Solution\MRO.ROI.Automation\obj\Debug\MRO.ROI.Automation.csprojAssemblyReference.cache
-C:\MROTestAutomation\TestAutomation\MRO.AutomationTest.Solution\MRO.ROI.Automation\obj\Debug\MRO.ROI.Automation.csproj.CoreCompileInputs.cache
 C:\MROTestAutomation\TestAutomation\MRO.AutomationTest.Solution\MRO.ROI.Automation\obj\Debug\MRO.ROI.Automation.csproj.CopyComplete
 C:\MROTestAutomation\TestAutomation\MRO.AutomationTest.Solution\MRO.ROI.Automation\obj\Debug\MRO.ROI.Automation.dll
 C:\MROTestAutomation\TestAutomation\MRO.AutomationTest.Solution\MRO.ROI.Automation\obj\Debug\MRO.ROI.Automation.pdb
+C:\MROTestAutomation\TestAutomation\MRO.AutomationTest.Solution\MRO.ROI.Automation\obj\Debug\MRO.ROI.Automation.csprojAssemblyReference.cache

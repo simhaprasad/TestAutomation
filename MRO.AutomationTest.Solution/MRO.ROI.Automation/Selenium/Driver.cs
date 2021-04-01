@@ -7,6 +7,7 @@ using OpenQA.Selenium.Chrome;
 using OpenQA.Selenium.Firefox;
 using OpenQA.Selenium.IE;
 using OpenQA.Selenium.Interactions;
+using OpenQA.Selenium.Remote;
 using OpenQA.Selenium.Support.UI;
 using System;
 using System.Collections.Generic;
@@ -25,7 +26,7 @@ namespace MRO.ROI.Automation.Selenium
         public static ExtentTest logger;
         public static string projectPath;
         public static string reportPath;
-        public static IWebDriver Instance { get; set; }
+        public static RemoteWebDriver Instance { get; set; }
         public static string TestCategory { get; set; }
         public static string BaseAddress { get; private set; }
         public static string DriverPath { get; private set; }
@@ -114,7 +115,7 @@ namespace MRO.ROI.Automation.Selenium
             Thread.Sleep((int)(timeSpan.TotalSeconds * 1000));
         }
 
-        public static void NoWait(Action action,IWebDriver bDriver)
+        public static void NoWait(Action action,RemoteWebDriver bDriver)
         {
             TurnOffWait();
             action();
@@ -126,7 +127,7 @@ namespace MRO.ROI.Automation.Selenium
             Instance.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(90);
         }
 
-        public static void TurnOnWait(IWebDriver bDriver)
+        public static void TurnOnWait(RemoteWebDriver bDriver)
         {
             bDriver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(50);
         }
@@ -173,7 +174,7 @@ namespace MRO.ROI.Automation.Selenium
             throw new NotImplementedException();
         }
 
-        public static void WaitUntilDOMLoaded(IWebDriver bDriver)
+        public static void WaitUntilDOMLoaded(RemoteWebDriver bDriver)
         {
             IncreaseOnWait();
             var wait = new WebDriverWait(Driver.Instance, new TimeSpan(0, 0, 55));
@@ -241,7 +242,7 @@ namespace MRO.ROI.Automation.Selenium
 
     public static class JSExecute
     {
-        public static IJavaScriptExecutor Scripts(this IWebDriver driver)
+        public static IJavaScriptExecutor Scripts(this RemoteWebDriver driver)
         {
             return (IJavaScriptExecutor)driver;
         }

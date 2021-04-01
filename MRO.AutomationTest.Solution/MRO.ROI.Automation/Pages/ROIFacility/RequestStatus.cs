@@ -1,5 +1,6 @@
 ﻿using MRO.ROI.Automation.Selenium;
 using OpenQA.Selenium;
+using OpenQA.Selenium.Remote;
 using System;
 
 namespace MRO.ROI.Automation.Pages
@@ -100,7 +101,7 @@ namespace MRO.ROI.Automation.Pages
         public static void scrollIntoView(string locatorKey)
         {
             IWebElement element = getElement(locatorKey);
-            IWebDriver dr = Driver.Instance;
+            RemoteWebDriver dr = Driver.Instance;
             IJavaScriptExecutor js = (IJavaScriptExecutor)dr;
             js.ExecuteScript("arguments[0].scrollIntoView(true);", element);
         }

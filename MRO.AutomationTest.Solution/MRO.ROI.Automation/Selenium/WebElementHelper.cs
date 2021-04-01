@@ -1,5 +1,6 @@
 ﻿using OpenQA.Selenium;
 using OpenQA.Selenium.Interactions;
+using OpenQA.Selenium.Remote;
 using OpenQA.Selenium.Support.UI;
 using System;
 using WindowsInput;
@@ -17,7 +18,7 @@ namespace MRO.ROI.Automation.Selenium
         /// </summary>
         /// <param name="webElementName"></param>
         /// <param name="findElementBy"></param>
-        public static void Click_Action(string webElementName, FindElementBy findElementBy,IWebDriver bDriver)
+        public static void Click_Action(string webElementName, FindElementBy findElementBy,RemoteWebDriver bDriver)
         {
             IWebElement webElement;
 
@@ -63,7 +64,7 @@ namespace MRO.ROI.Automation.Selenium
 				element = Driver.Instance.FindElement(By.TagName(locatorKey));
 			}
              
-            IWebDriver dr = Driver.Instance;
+            RemoteWebDriver dr = Driver.Instance;
             IJavaScriptExecutor js = (IJavaScriptExecutor)dr;
             js.ExecuteScript("arguments[0].scrollIntoView(true);", element);
         }
@@ -76,7 +77,7 @@ namespace MRO.ROI.Automation.Selenium
         public static void ScrollIntoView1()
         {
             //IWebElement element = Driver.Instance.FindElement(By.Id(locatorKey));
-            IWebDriver dr = Driver.Instance;
+            RemoteWebDriver dr = Driver.Instance;
             IJavaScriptExecutor js = (IJavaScriptExecutor)dr;
             js.ExecuteScript("window.scrollBy(0,950);");
 

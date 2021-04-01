@@ -22,7 +22,7 @@ namespace MRO.ROI.Automation.Common.Navigation
             Driver.Instance.FindElement(By.XPath($"//td[contains(text(),'{subMenuText}')]")).Click();
         }
 
-        public static void SelectRoiAdmin(string topLevelMenuText, string subMenuText, IWebDriver bdriver)
+        public static void SelectRoiAdmin(string topLevelMenuText, string subMenuText, RemoteWebDriver bdriver)
         {
             //Driver.WaitUntilDOMLoaded();
             Console.Write($"//td[contains(text(),'{topLevelMenuText}')]");

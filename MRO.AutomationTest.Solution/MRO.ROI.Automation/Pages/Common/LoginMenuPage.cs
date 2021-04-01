@@ -1,12 +1,13 @@
 ﻿using MRO.ROI.Automation.Selenium;
 using MRO.ROI.Automation.Utility;
 using OpenQA.Selenium;
+using OpenQA.Selenium.Remote;
 
 namespace MRO.ROI.Automation.Pages.Common
 {
     public static class LoginMenuPage
     {
-        public static void GoToLoginMenuPage(IWebDriver bDriver, string webAppURL)
+        public static void GoToLoginMenuPage(RemoteWebDriver bDriver, string webAppURL)
         {
             DebugUtil.DebugMessage("Login Menu page");
             bDriver.Navigate().GoToUrl(webAppURL);

@@ -189,6 +189,7 @@ C:\TestAutomation\MRO.AutomationTest.Solution\MRO.ROI.Test\obj\Debug\MRO.ROI.Tes
 C:\TestAutomation\MRO.AutomationTest.Solution\MRO.ROI.Test\obj\Debug\MRO.ROI.Test.dll
 C:\TestAutomation\MRO.AutomationTest.Solution\MRO.ROI.Test\obj\Debug\MRO.ROI.Test.pdb
 C:\MROTestAutomation\TestAutomation\MRO.AutomationTest.Solution\MRO.ROI.Test\bin\Debug\chromedriver.exe
+C:\MROTestAutomation\TestAutomation\MRO.AutomationTest.Solution\MRO.ROI.Test\obj\Debug\MRO.ROI.Test.csproj.CoreCompileInputs.cache
 C:\MROTestAutomation\TestAutomation\MRO.AutomationTest.Solution\MRO.ROI.Test\bin\Debug\NUnit3.TestAdapter.dll
 C:\MROTestAutomation\TestAutomation\MRO.AutomationTest.Solution\MRO.ROI.Test\bin\Debug\NUnit3.TestAdapter.pdb
 C:\MROTestAutomation\TestAutomation\MRO.AutomationTest.Solution\MRO.ROI.Test\bin\Debug\nunit.engine.dll
@@ -249,7 +250,6 @@ C:\MROTestAutomation\TestAutomation\MRO.AutomationTest.Solution\MRO.ROI.Test\bin
 C:\MROTestAutomation\TestAutomation\MRO.AutomationTest.Solution\MRO.ROI.Test\bin\Debug\Dapper.xml
 C:\MROTestAutomation\TestAutomation\MRO.AutomationTest.Solution\MRO.ROI.Test\bin\Debug\AutoItX3.Assembly.xml
 C:\MROTestAutomation\TestAutomation\MRO.AutomationTest.Solution\MRO.ROI.Test\obj\Debug\MRO.ROI.Test.csprojAssemblyReference.cache
-C:\MROTestAutomation\TestAutomation\MRO.AutomationTest.Solution\MRO.ROI.Test\obj\Debug\MRO.ROI.Test.csproj.CoreCompileInputs.cache
 C:\MROTestAutomation\TestAutomation\MRO.AutomationTest.Solution\MRO.ROI.Test\obj\Debug\MRO.ROI.Test.csproj.CopyComplete
 C:\MROTestAutomation\TestAutomation\MRO.AutomationTest.Solution\MRO.ROI.Test\obj\Debug\MRO.ROI.Test.dll
 C:\MROTestAutomation\TestAutomation\MRO.AutomationTest.Solution\MRO.ROI.Test\obj\Debug\MRO.ROI.Test.pdb

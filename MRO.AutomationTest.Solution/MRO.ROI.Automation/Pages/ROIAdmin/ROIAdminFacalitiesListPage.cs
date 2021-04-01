@@ -1,5 +1,6 @@
 ﻿using MRO.ROI.Automation.Selenium;
 using OpenQA.Selenium;
+using OpenQA.Selenium.Remote;
 using OpenQA.Selenium.Support.UI;
 using System;
 
@@ -112,7 +113,7 @@ namespace MRO.ROI.Automation.Pages
         }
 
 
-        public static void gotoMROARTestFacility(IWebDriver bDriver)
+        public static void gotoMROARTestFacility(RemoteWebDriver bDriver)
         {
             bool result = bDriver.FindElement(By.Id("mrocontent_cbAlphaFilter")).Selected;
             if (result == false)

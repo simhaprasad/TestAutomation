@@ -53,7 +53,7 @@ namespace MRO.ROI.Automation.Pages.Common
             okButton.Click();
         }
 
-        public static void GoToROIFaclityLoginPage(IWebDriver bDriver)
+        public static void GoToROIFaclityLoginPage(RemoteWebDriver bDriver)
         {
             DebugUtil.DebugMessage("ROI Facility Login page");
             var facilityLink = bDriver.FindElement(By.XPath(PageElements.FacilityLoginPage.facilityLink_Xpath));
@@ -84,7 +84,7 @@ namespace MRO.ROI.Automation.Pages.Common
             okButton.Click();
         }
 
-        public static void GoToROIAdminLoginPage(IWebDriver bDriver)
+        public static void GoToROIAdminLoginPage(RemoteWebDriver bDriver)
         {
             
             string baseAddress = "https://staging.mrocorp.com/net4.0/Login/dev/login/LoginMenu.aspx";
@@ -160,7 +160,7 @@ namespace MRO.ROI.Automation.Pages.Common
             return this;
         }
 
-        public void Login(IWebDriver bDriver)
+        public void Login(RemoteWebDriver bDriver)
         {
             var userNameInput = bDriver.FindElement(By.Id("mrocontent_txtUserName"));
             userNameInput.Clear();
