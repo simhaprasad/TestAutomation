@@ -138,7 +138,7 @@ namespace MRO.ROI.Test.SmokeTests.ROIAdmin
                 //        {"StackTrace", ex.StackTrace }
                 //    })); //Logging Error in a tabular format
                 baseClass.Dispose();
-                Assert.Fail(ex.StackTrace);
+                Assert.Fail(ex.Message);
                 
             }
         }
