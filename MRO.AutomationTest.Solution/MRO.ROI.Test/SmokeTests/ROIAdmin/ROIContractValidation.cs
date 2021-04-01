@@ -16,8 +16,7 @@ namespace MRO.ROI.Test.SmokeTests.ROIAdmin
     public class ROIContractValidation 
     {       
 
-        [TestMethod]
-        [TestCategory(ROITestCategory.BuildVerification), TestCategory(ROITestCategory.Regression)]
+        [TestMethod]      
         public void ROI_Contract_Validation_improvements()
         {
             TestBase baseClass = new TestBase();

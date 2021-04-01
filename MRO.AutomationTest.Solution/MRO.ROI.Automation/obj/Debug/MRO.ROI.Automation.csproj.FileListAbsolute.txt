@@ -206,6 +206,7 @@ C:\MROTestAutomation\TestAutomation\MRO.AutomationTest.Solution\MRO.ROI.Automati
 C:\MROTestAutomation\TestAutomation\MRO.AutomationTest.Solution\MRO.ROI.Automation\bin\Debug\WebDriver.xml
 C:\MROTestAutomation\TestAutomation\MRO.AutomationTest.Solution\MRO.ROI.Automation\bin\Debug\WebDriver.Support.xml
 C:\MROTestAutomation\TestAutomation\MRO.AutomationTest.Solution\MRO.ROI.Automation\bin\Debug\WindowsInput.xml
+C:\MROTestAutomation\TestAutomation\MRO.AutomationTest.Solution\MRO.ROI.Automation\obj\Debug\MRO.ROI.Automation.csprojAssemblyReference.cache
 C:\MROTestAutomation\TestAutomation\MRO.AutomationTest.Solution\MRO.ROI.Automation\obj\Debug\MRO.ROI.Automation.csproj.CoreCompileInputs.cache
 C:\MROTestAutomation\TestAutomation\MRO.AutomationTest.Solution\MRO.ROI.Automation\obj\Debug\MRO.ROI.Automation.csproj.CopyComplete
 C:\MROTestAutomation\TestAutomation\MRO.AutomationTest.Solution\MRO.ROI.Automation\obj\Debug\MRO.ROI.Automation.dll
